@@ -1,0 +1,144 @@
+@keyframes zoom-in-out {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes from-left {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes from-right {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes from-top {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes from-bottom {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.from-left {
+    animation: from-left 1s ease-in-out, zoom-in-out 10s ease-in-out 1s;
+}
+
+.from-right {
+    animation: from-right 1s ease-in-out, zoom-in-out 10s ease-in-out 1s;
+}
+
+.from-top {
+    animation: from-top 1s ease-in-out, zoom-in-out 10s ease-in-out 1s;
+}
+
+.from-bottom {
+    animation: from-bottom 1s ease-in-out, zoom-in-out 10s ease-in-out 1s;
+}
+
+
+
+
+
+
+/* @keyframes zoom-in-out {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes from-left {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes from-right {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes from-top {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes from-bottom {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.from-left {
+    animation: from-left 1s ease-in-out;
+}
+
+.from-right {
+    animation: from-right 1s ease-in-out;
+}
+
+.from-top {
+    animation: from-top 1s ease-in-out;
+}
+
+.from-bottom {
+    animation: from-bottom 1s ease-in-out;
+} */
